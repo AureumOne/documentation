@@ -6,11 +6,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Aureum One Documentation',
   tagline: 'Swiss-Grade Gold Tokenization & Institutional Governance',
-  url: 'https://docs.aureumone.io',
-  baseUrl: '/',
+  url: 'https://AureumOne.github.io',
+  baseUrl: '/documentation/',
   favicon: 'img/favicon.ico',
-  organizationName: 'aureum-one',
-  projectName: 'aureum-one-docs',
+  organizationName: 'AureumOne',
+  projectName: 'documentation',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
