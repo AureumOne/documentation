@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.White Paper": {
+    "message": "White Paper",
+    "description": "The label for category 'White Paper' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Institutional Framework": {
+    "message": "Institutional Framework",
+    "description": "The label for category 'Institutional Framework' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Technology": {
+    "message": "Technology",
+    "description": "The label for category 'Technology' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Compliance": {
+    "message": "Compliance",
+    "description": "The label for category 'Compliance' in sidebar 'docsSidebar'"
+  }
+}

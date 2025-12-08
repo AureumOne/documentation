@@ -1,0 +1,166 @@
+:root {
+  /* Swiss institutional palette */
+  --ifm-color-primary: #16283d; /* deep blue */
+  --ifm-color-primary-dark: #111f30;
+  --ifm-color-primary-darker: #0d1824;
+  --ifm-color-primary-darkest: #09111a;
+  --ifm-color-primary-light: #1f3854;
+  --ifm-color-primary-lighter: #2a4769;
+  --ifm-color-primary-lightest: #38567a;
+
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-hover-color: #917f6e; /* subtle gold accent */
+
+  --ifm-background-color: #f6f7f9;
+  --ifm-footer-background-color: #11151d;
+
+  --ifm-heading-font-weight: 500;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, system-ui,
+    -system, "Segoe UI", sans-serif;
+
+  --aureum-accent-gold: #917f6e;
+  --aureum-border-soft: #d6d9df;
+}
+
+/* Body */
+html,
+body {
+  background-color: var(--ifm-background-color);
+}
+
+/* Navbar refinements */
+.navbar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.navbar__title {
+  font-weight: 500;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Cards / institutional blocks */
+.aureum-hero {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 3rem;
+}
+
+.aureum-hero-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #16283d;
+  margin-bottom: 0.75rem;
+}
+
+.aureum-hero-subtitle {
+  font-size: 1.05rem;
+  color: #4a5463;
+  max-width: 640px;
+}
+
+.aureum-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background-color: #e3e7ee;
+  color: #384459;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.aureum-hero-highlight {
+  color: var(--aureum-accent-gold);
+}
+
+.aureum-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.aureum-button-primary {
+  background-color: #16283d;
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 0.65rem 1.4rem;
+  font-size: 0.9rem;
+  border: 1px solid #16283d;
+}
+
+.aureum-button-primary:hover {
+  opacity: 0.92;
+  color: #ffffff;
+}
+
+.aureum-button-ghost {
+  background-color: transparent;
+  color: #16283d;
+  border-radius: 999px;
+  padding: 0.65rem 1.4rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--aureum-border-soft);
+}
+
+.aureum-button-ghost:hover {
+  border-color: #16283d;
+  color: #16283d;
+}
+
+/* Three-column pillars */
+.aureum-pillars {
+  max-width: 1040px;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+.aureum-pillar-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid var(--aureum-border-soft);
+  padding: 1.4rem 1.4rem 1.3rem;
+}
+
+.aureum-pillar-title {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7b8290;
+  margin-bottom: 0.6rem;
+}
+
+.aureum-pillar-heading {
+  font-size: 1.05rem;
+  color: #16283d;
+  margin-bottom: 0.35rem;
+}
+
+.aureum-pillar-body {
+  font-size: 0.9rem;
+  color: #4f5663;
+}
+
+/* Section headings */
+.aureum-section-title {
+  max-width: 1040px;
+  margin: 0 auto 1rem;
+  padding: 0 1.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #7f8896;
+}

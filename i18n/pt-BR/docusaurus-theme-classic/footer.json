@@ -1,0 +1,26 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Institutional": {
+    "message": "Institutional",
+    "description": "The title of the footer links column with title=Institutional in the footer"
+  },
+  "link.item.label.Docs": {
+    "message": "Docs",
+    "description": "The label of footer link with label=Docs linking to /docs/whitepaper-executive-summary"
+  },
+  "link.item.label.Aureum One": {
+    "message": "Aureum One",
+    "description": "The label of footer link with label=Aureum One linking to https://aureumone.io"
+  },
+  "link.item.label.Contact": {
+    "message": "Contact",
+    "description": "The label of footer link with label=Contact linking to mailto:institutional@aureumone.io"
+  },
+  "copyright": {
+    "message": "© 2025 Aureum One. All rights reserved.",
+    "description": "The footer copyright"
+  }
+}
