@@ -7,123 +7,127 @@ import Link from '@docusaurus/Link';
 export default function Home() {
   return (
     <Layout
-      title="Aureum One Documentation"
-      description="Swiss-grade gold tokenization, institutional governance, and technical infrastructure documentation."
+      title="Aureum One — Institutional Documentation"
+      description="Public institutional documentation for professional counterparties, regulators, and auditors."
     >
       <main>
         <section className="aureum-hero">
           <div className="aureum-hero-badge">
-            INSTITUTIONAL DOCUMENTATION · AUREUM ONE
+            INSTITUTIONAL DOCUMENTATION
           </div>
           <h1 className="aureum-hero-title">
-            Swiss-Grade Gold Tokenization,<br />
-            <span className="aureum-hero-highlight">
-              Documented with Institutional Clarity.
-            </span>
+            Aureum One
           </h1>
           <p className="aureum-hero-subtitle">
-            This portal consolidates the core documentation for Aureum One: a
-            multi-jurisdictional infrastructure that connects Swiss-vaulted
-            physical gold with a transparent, audit-ready digital settlement
-            layer on XRPL, under conservative governance and independent
-            external oversight.
+            <span className="aureum-hero-highlight">Non-custodial institutional infrastructure</span> for physical gold. Designed for <span className="aureum-hero-highlight">professional counterparties</span>, regulators, and institutional partners.
+          </p>
+          <p className="aureum-hero-description">
+            This documentation defines Aureum One's institutional scope, architectural boundaries, governance posture, and compliance positioning. It is not marketing material.
           </p>
 
           <div className="aureum-hero-buttons">
-            <Link
-              className="aureum-button-primary"
-              to="/docs/whitepaper-executive-summary"
-            >
-              Read the White Paper
+            <Link className="aureum-button-primary" to="/docs">
+              Read Documentation
             </Link>
-            <Link
-              className="aureum-button-ghost"
-              to="/docs/institutional-overview"
-            >
-              View Institutional Framework
+            <Link className="aureum-button-ghost" to="/docs/what_aureum_is">
+              What Aureum One Is
             </Link>
           </div>
         </section>
 
         <div className="aureum-section-title">
-          CORE PILLARS
+          FOUR-LAYER INSTITUTIONAL MODEL
         </div>
         <section className="aureum-pillars">
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-title">Real Asset Layer</div>
-            <div className="aureum-pillar-heading">Swiss-Vaulted Physical Gold</div>
-            <p className="aureum-pillar-body">
-              Fully allocated gold, stored under professional custody in
-              Switzerland, with segregated ownership, formal documentation, and
-              a conservative risk posture aligned with long-term wealth
-              preservation.
-            </p>
-          </div>
+          <Link to="/docs/four_layer_model" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">LAYER 01</div>
+              <div className="aureum-pillar-heading">Custody Layer</div>
+              <p className="aureum-pillar-body">
+                Physical gold held by <span style={{color: '#917F6E', fontWeight: 600}}>professional third-party custodians</span> under their own regulatory frameworks.
+              </p>
+            </div>
+          </Link>
 
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-title">Governance & Compliance</div>
-            <div className="aureum-pillar-heading">Institutional Oversight</div>
-            <p className="aureum-pillar-body">
-              A dedicated operational entity manages onboarding, gold lifecycle,
-              and accounting, under the supervision of an Independent External
-              Auditor who reviews controls, reconciliations, and critical
-              tokenization events.
-            </p>
-          </div>
+          <Link to="/docs/four_layer_model" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">LAYER 02</div>
+              <div className="aureum-pillar-heading">Execution Layer</div>
+              <p className="aureum-pillar-body">
+                Trades executed by <span style={{color: '#917F6E', fontWeight: 600}}>independent bullion houses</span> on their own platforms.
+              </p>
+            </div>
+          </Link>
 
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-title">Digital Settlement Layer</div>
-            <div className="aureum-pillar-heading">XRPL-Based Liquidity</div>
-            <p className="aureum-pillar-body">
-              A transparent 1:1 representation of allocated gold is issued and
-              redeemed on XRPL, enabling instant global settlement while
-              preserving auditability, supply transparency, and strict
-              governance around mint and burn operations.
-            </p>
-          </div>
+          <Link to="/docs/governance_framework" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">LAYER 03</div>
+              <div className="aureum-pillar-heading">Governance Layer</div>
+              <p className="aureum-pillar-body">
+                <span style={{color: '#917F6E', fontWeight: 600}}>Non-discretionary governance</span> with dual control, 4-eyes principle, and role separation.
+              </p>
+            </div>
+          </Link>
+
+          <Link to="/docs/evidence_philosophy" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">LAYER 04</div>
+              <div className="aureum-pillar-heading">Evidence Layer</div>
+              <p className="aureum-pillar-body">
+                <span style={{color: '#917F6E', fontWeight: 600}}>Immutable, append-only</span> evidence designed for external audit and regulatory review.
+              </p>
+            </div>
+          </Link>
         </section>
 
         <div className="aureum-section-title">
-          NAVIGATION
+          INSTITUTIONAL PRINCIPLES
         </div>
         <section className="aureum-pillars">
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-heading">White Paper</div>
-            <p className="aureum-pillar-body">
-              Conceptual and institutional overview of Aureum One, including
-              architecture, governance model, financial flows, tokenomics, and
-              the long-term positioning as a conservative, audit-ready gold
-              tokenization infrastructure.
-            </p>
-            <Link to="/docs/whitepaper-executive-summary" className="aureum-button-ghost" style={{marginTop: '0.9rem', display: 'inline-block'}}>
-              Open White Paper
-            </Link>
-          </div>
+          <Link to="/docs/what_aureum_is_not" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">POSITIONING</div>
+              <div className="aureum-pillar-heading">Non-Intermediation</div>
+              <p className="aureum-pillar-body">
+                Aureum One is <span style={{color: '#917F6E', fontWeight: 600}}>not a custodian, broker, marketplace, or investment platform</span>. No asset aggregation or balance pooling.
+              </p>
+            </div>
+          </Link>
 
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-heading">Institutional Framework</div>
-            <p className="aureum-pillar-body">
-              Documentation focused on legal posture, role separation, and the
-              responsibilities of the operational entity and the Independent
-              External Auditor, including reconciliation scope and reporting
-              expectations.
-            </p>
-            <Link to="/docs/institutional-overview" className="aureum-button-ghost" style={{marginTop: '0.9rem', display: 'inline-block'}}>
-              View Institutional Docs
-            </Link>
-          </div>
+          <Link to="/docs/architecture_principle" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">DESIGN CONSTRAINT</div>
+              <div className="aureum-pillar-heading">Separation of Control</div>
+              <p className="aureum-pillar-body">
+                <span style={{color: '#917F6E', fontWeight: 600}}>No single party may control more than one critical layer</span> to eliminate concentration risk.
+              </p>
+            </div>
+          </Link>
 
-          <div className="aureum-pillar-card">
-            <div className="aureum-pillar-heading">Technology & Compliance</div>
-            <p className="aureum-pillar-body">
-              Technical architecture on AWS, security model, and a high-level
-              view of the AML/KYC framework, enabling banks, partners, and
-              auditors to understand how infrastructure and compliance are
-              implemented end-to-end.
+          <Link to="/docs/compliance_position" style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className="aureum-pillar-card">
+              <div className="aureum-pillar-title">REGULATORY POSTURE</div>
+              <div className="aureum-pillar-heading">Jurisdiction-Agnostic</div>
+              <p className="aureum-pillar-body">
+                <span style={{color: '#917F6E', fontWeight: 600}}>Compliance obligations remain with custodians and execution venues</span>. Aureum One governs, does not intermediate.
+              </p>
+            </div>
+          </Link>
+        </section>
+
+        <section className="aureum-cta-section">
+          <div className="aureum-cta-container">
+            <h2 className="aureum-cta-title">
+              Designed for <span style={{color: '#917F6E'}}>Institutional Rigor</span>
+            </h2>
+            <p className="aureum-cta-subtitle">
+              This documentation is intended for professional counterparties, custodians, execution venues, auditors, regulators, and institutional partners.
             </p>
-            <Link to="/docs/technical-architecture" className="aureum-button-ghost" style={{marginTop: '0.9rem', display: 'inline-block'}}>
-              Explore Tech & Compliance
-            </Link>
+            <div className="aureum-hero-buttons">
+              <Link className="aureum-button-primary" to="/docs">
+                Access Full Documentation
+              </Link>
+            </div>
           </div>
         </section>
       </main>

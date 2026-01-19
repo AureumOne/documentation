@@ -30,6 +30,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editCurrentVersion: false,
+          routeBasePath: 'docs',
         },
         blog: false,
         theme: {
@@ -51,6 +52,7 @@ const config = {
         logo: {
           alt: 'Aureum One',
           src: 'img/logo.png',
+          href: '/',
         },
         items: [
           {
@@ -59,7 +61,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/docs/whitepaper-executive-summary',
+            to: '/docs',
             label: 'Docs',
             position: 'left',
           },
@@ -83,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/whitepaper-executive-summary',
+                to: '/docs',
               },
             ],
           },
@@ -95,8 +97,8 @@ const config = {
                 href: 'https://aureumone.io',
               },
               {
-                label: 'Contact',
-                href: 'mailto:institutional@aureumone.io',
+                label: 'institucional@aureumone.io',
+                href: 'mailto:institucional@aureumone.io',
               },
             ],
           },
